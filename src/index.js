@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import CallBackHook from './components/06-memos/CallBackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import TodoApp from './components/08-useReducer/TodoApp';
 // import MemoHook from './components/06-memos/MemoHook';
 // import Layout from './components/05-useLayouEffect/Layout';
 // import Memorize from './components/06-memos/Memorize';
@@ -16,9 +17,6 @@ import { Padre } from './components/07-tarea-memo/Padre';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Padre />
+    <TodoApp />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
